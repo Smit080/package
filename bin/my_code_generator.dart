@@ -1,4 +1,4 @@
-// import 'package:my_code_generator/code_generator.dart';
+// import 'package:my_code_generator/my_code_generator.dart';
 //
 // void main(List<String> args) async {
 //   if (args.isEmpty) {
@@ -12,7 +12,7 @@
 //   await CodeGenerator.generateWidget2(args);
 // }
 
-import 'package:my_code_generator/code_generator.dart';
+import 'package:my_code_generator/my_code_generator.dart';
 
 void main(List<String> arguments) {
   MyFlutterCli().generate(arguments);
